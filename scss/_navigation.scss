@@ -1,0 +1,17 @@
+@import 'vars';
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.hover {
+    color: $green;
+}
+
+.hover:hover {
+    color: black;
+}
+
+.navbar-toggler-icon {
+    cursor: pointer;
+}

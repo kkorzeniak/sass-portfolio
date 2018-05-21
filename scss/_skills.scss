@@ -1,0 +1,19 @@
+#skills {
+    background-color: #fff;
+    position: relative;
+    z-index: -2;
+    
+    p {
+        margin: 0 auto 20px;
+    }
+    
+    #language {
+        width: 100%;
+        text-align: center;
+        
+        .icon {
+            display: inline-block;
+            margin: 10px auto;
+        }
+    }
+}

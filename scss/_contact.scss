@@ -1,0 +1,124 @@
+#contact {
+    background-color: #213b50;
+    color: #fff;
+    
+    h2 {
+        text-align: left;
+    }
+    
+    #content {
+        width: 100%;
+        
+        .left {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            
+            #personal {
+                display: inline-block;
+                width: 100%;
+                margin: -1px;
+                padding-left: 15px;
+
+                a {
+                    text-decoration: none;
+                    color: #fff;
+                }
+
+                a:visited {
+                    display: block;
+                    color: #fff
+                }
+
+                p{
+                    width: 100%;
+                    margin: 5px 0;
+
+                    a {
+                        color: #1ac056;
+                        text-decoration: underline;
+                    }
+                }
+
+                p:nth-child(3){
+                    width: 100%;
+                    margin: 40px 0 0;
+                }   
+            }
+
+            .icon-box {
+                padding-left: 15px;
+                align-self: flex-end;
+                margin-bottom: 40px;
+                
+                .contact-block {
+                    width: 50px;
+                    height: 50px;
+                    display: inline-block;
+                    margin: 0 10px 0px 0px;
+                    border: 2px solid #fff;
+                    text-align: center;
+                    
+                    i {
+                        font-size: 30px;
+                        line-height: 50px;
+                        color: white;
+                    }
+                }
+                
+                .contact-block:hover {
+                    background-color: #1ac056;
+                }
+            }  
+        }
+        
+        #postcard {
+            padding: 0px 0  60px;
+            display: inline-block;
+            width: 100%;
+            margin: -1px;
+            
+            input, 
+            textarea {
+                width: 100%;
+                padding: 10px 20px;
+                margin: 10px 0px;
+                background-color: #324c61;
+                color: #fff;
+                border: 0;
+                outline: none;
+                float: left;
+                border-radius: 2px;
+            }
+            
+            input:focus, 
+            textarea:focus {
+                background-color: #4e708c;
+                border: 1px solid #1ac056;
+            }
+            
+            input[type="submit"] {
+                width: 30%;
+                line-height: 40px;
+                float: right;
+                background-color: #1ac056;
+                color: #fff;
+                text-transform: uppercase;
+                border: 0;
+                outline: 0;
+                font-weight: bold;
+                border-radius: 10px;
+                cursor: pointer;
+                padding: 0;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+

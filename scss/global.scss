@@ -1,0 +1,39 @@
+@import 'vars';
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    color: #291f1a;
+}
+
+.green {
+    color: $green;
+    font-weight: bold;
+}
+
+
+section {
+    padding: 30px 50px;
+}
+
+.header {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    margin: 0;
+    padding: 30px;
+    letter-spacing: 1px;
+}
+
+@import 'navigation';
+@import 'header';
+@import 'about';
+@import 'skills';
+@import 'portfolio';
+@import 'contact';
+@import 'footer';
+
+
